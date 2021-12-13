@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HumanTest {/*
+class HumanTest {
 
     @Test
     void createHumanTest() {
@@ -12,5 +12,5 @@ class HumanTest {/*
 
         assertEquals("12345123", human.getIdentityNumber());
         assertEquals("John Doe", human.getName());
-    }*/
+    }
 }

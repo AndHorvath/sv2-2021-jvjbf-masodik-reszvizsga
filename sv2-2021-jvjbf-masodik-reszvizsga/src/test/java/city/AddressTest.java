@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AddressTest {/*
+class AddressTest {
 
     @Test
     void createAddress() {
@@ -12,5 +12,5 @@ class AddressTest {/*
 
         assertEquals("Kossuth", address.getStreet());
         assertEquals(6, address.getBuildingNumber());
-    }*/
+    }
 }

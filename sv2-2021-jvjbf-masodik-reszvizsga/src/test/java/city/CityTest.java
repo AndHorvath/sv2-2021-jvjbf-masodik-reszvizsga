@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CityTest {/*
+class CityTest {
 
     City city;
 
@@ -54,7 +54,7 @@ class CityTest {/*
     }
 
 
-    @Test
+    /*@Test
     void findHighestBuildingInCityTest() {
         Building building = city.findHighestBuilding();
 

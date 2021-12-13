@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WordsTest {/*
+class WordsTest {
 
     Words words = new Words();
 
@@ -61,5 +61,5 @@ class WordsTest {/*
         IllegalArgumentException iae = assertThrows(IllegalArgumentException.class, () -> words.addWord("apple pear carrot"));
 
         assertEquals("It should be one word!", iae.getMessage());
-    }*/
+    }
 }

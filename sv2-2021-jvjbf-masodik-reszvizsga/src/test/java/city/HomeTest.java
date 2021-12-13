@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HomeTest {/*
+class HomeTest {
 
     Building home = new Home(121, 2, new Address("Main", 12));
 
@@ -42,5 +42,5 @@ class HomeTest {/*
     @Test
     void testNumberOfPeopleCanFit() {
         assertEquals(12, home.calculateNumberOfPeopleCanFit());
-    }*/
+    }
 }

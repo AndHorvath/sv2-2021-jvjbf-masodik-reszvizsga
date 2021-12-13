@@ -54,7 +54,7 @@ class CityTest {
     }
 
 
-    /*@Test
+    @Test
     void findHighestBuildingInCityTest() {
         Building building = city.findHighestBuilding();
 
@@ -76,5 +76,5 @@ class CityTest {
     void testIsThereBuildingWithMorePeopleThan() {
         assertTrue(city.isThereBuildingWithMorePeopleThan(494));
         assertFalse(city.isThereBuildingWithMorePeopleThan(496));
-    }*/
+    }
 }

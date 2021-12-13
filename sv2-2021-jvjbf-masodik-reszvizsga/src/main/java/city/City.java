@@ -34,6 +34,35 @@ public class City {
         buildings.add(building);
     }
 
+    public Building findHighestBuilding() {
+        Building highestBuilding = null;
+        for (Building building : buildings) {
+            if (highestBuilding == null || building.getLevels() > highestBuilding.getLevels()) {
+                highestBuilding = building;
+            }
+        }
+        return highestBuilding;
+    }
+
+    public List<Building> findBuildingsByStreet(String street) {
+        List<Building> buildingsInGivenStreet = new ArrayList<>();
+        for (Building building : buildings) {
+            if (street.equals(building.getAddress().getStreet())) {
+                buildingsInGivenStreet.add(building);
+            }
+        }
+        return buildingsInGivenStreet;
+    }
+
+    public boolean isThereBuildingWithMorePeopleThan(int numberOfPeople) {
+        for (Building building : buildings) {
+            if (building.calculateNumberOfPeopleCanFit() > numberOfPeople) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     // --- private methods ----------------------------------------------------
 
     private long getTakenArea() {
